@@ -4,7 +4,112 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "addr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "b",
+				"outputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isTrue",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "number",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "number1",
+				"outputs": [
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "number2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "number3",
+				"outputs": [
+					{
+						"internalType": "int8",
+						"name": "",
+						"type": "int8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +138,11 @@
 	},
 	"sources": {
 		"example/datatype.sol": {
-			"keccak256": "0x1551b2f3a5d7944fcf9481d84573176f2461338cdcdb2a1dd3573610b30907ec",
+			"keccak256": "0x2e7178ae6353d7284dda685b480c16cfad232a4c2dc9d7f4fa8639ad0fc40225",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://cf2bb00daf7d78626ed4d92205bc8453e4770df3d3c5c54469215ed197b2fff8",
-				"dweb:/ipfs/QmT3NrtpmtcmCySoXU2Fy1m3P8XQCJ9ATpAVoZVkeA1jV1"
+				"bzz-raw://0402aed58823eb630c1a0ed2ab34db193edc4dfad3840ca516bbcc355f72c237",
+				"dweb:/ipfs/Qmd4XutFYQkrSb1huA37Z3GTVeMAEPbgGSNHLowgqR3fSB"
 			]
 		}
 	},
