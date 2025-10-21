@@ -85,6 +85,11 @@
 						"type": "uint256"
 					},
 					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
@@ -148,11 +153,11 @@
 	},
 	"sources": {
 		"example/variable.sol": {
-			"keccak256": "0x29a169be8cdbc34f8e3baa3f1a38e8310898617b8d939e21b4326ca016f57b9a",
+			"keccak256": "0x99ee193a7b357b129c1fb12dfdc821480da964415d8b95af3df7c1ebb3f2767f",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://593d674f1bfea9877644a1a0c08f652f4210d985025f9843feee07ae8eec608b",
-				"dweb:/ipfs/Qmcecgh8E26CiJT9MDnCa9FbhX4chk4tjZHq8d9sXyzQtg"
+				"bzz-raw://8eccc3fee6050a4ec3111bd0d356f584795aeb96fe307a0ecfd1a083a8c300d3",
+				"dweb:/ipfs/QmZZVs1fUS8WsxB5owwj1q1d2AcucdqUQHQYhUWBmAehiV"
 			]
 		}
 	},

@@ -12,11 +12,11 @@ pragma solidity >= 0.8.0 <= 0.9.0;
 
     string public text = "hello world" ; //这个部署在链上就是blockchain变量
     
-    function dosomething() public view returns(uint, address) {
+    function dosomething() public view returns(uint, uint,address) {
         uint number = 10; //这个就是local变量
         uint now = block.timestamp;  //全局变量block
         address addr = msg.sender; //全局变量msg
-        return (now,  addr);
+        return (number, now,  addr);
     }
 
     //常量 不允许被修改  存储的时候可以减少很多gas消耗
