@@ -165,13 +165,6 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "testexternal",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -202,11 +195,11 @@
 	},
 	"sources": {
 		"example/array.sol": {
-			"keccak256": "0x607f85708b3f623937d9a96219827e740e2ef07433c8dd1b1eea3ae461995b40",
+			"keccak256": "0xf08fc632813c8283c05943f4413954f6ffc293c49867fbb45e1ba6835f787ae5",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://90bbed03f15c008cf55cc66f00b262a0379ecb1a34bb638a12daeb86111e490e",
-				"dweb:/ipfs/QmfMQ5rfghrCRZuV83T5ETHvRLtqSjS5qHUiBTpUuNJhWV"
+				"bzz-raw://b2597310732f7d765b2d6fb09920806693de928c614cb558275c6791432b7323",
+				"dweb:/ipfs/QmdQmTYQhhT26z4zTmJU9rTesgWRoKp8JcjdvuDYe48shF"
 			]
 		}
 	},

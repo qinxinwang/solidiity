@@ -48,9 +48,5 @@ contract arrayTest{
     function GetLength() public view returns (uint){
         return  arr1.length;
     }
-    //external 表示只能被外部合约调用 本合约不能调用
-    function testexternal() external {
-        uint[] memory aa = new uint[](5); //仅适用于定长数组
-    }
 
 }
