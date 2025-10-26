@@ -8,12 +8,51 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "addr",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
 					}
 				],
-				"name": "Clean",
+				"name": "DeleteTest",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "GetLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "GetValu",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "PopTest",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -21,36 +60,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "addr",
-						"type": "address"
-					}
-				],
-				"name": "GetAddr",
-				"outputs": [
-					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "value",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "addr",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "mount",
-						"type": "uint256"
-					}
-				],
-				"name": "SetMap",
+				"name": "PushTest",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -58,36 +73,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "balances",
-				"outputs": [
-					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "index",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "addr",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "num",
-						"type": "uint256"
-					}
-				],
-				"name": "deleteNest",
+				"name": "Remove",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -95,22 +86,30 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "addr",
-						"type": "address"
-					},
-					{
 						"internalType": "uint256",
-						"name": "num",
+						"name": "index",
 						"type": "uint256"
 					}
 				],
-				"name": "getnestmap",
+				"name": "Remove2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr1",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bool"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -119,22 +118,17 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					},
-					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "nested",
+				"name": "arr2",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bool"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -143,22 +137,38 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "addr",
-						"type": "address"
-					},
-					{
 						"internalType": "uint256",
-						"name": "num",
+						"name": "",
 						"type": "uint256"
-					},
-					{
-						"internalType": "bool",
-						"name": "flag",
-						"type": "bool"
 					}
 				],
-				"name": "setnest",
+				"name": "arr3",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getArr",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testexternal",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -177,7 +187,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"example/mapping.sol": "Mapping"
+			"example/array.sol": "arrayTest"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -191,12 +201,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"example/mapping.sol": {
-			"keccak256": "0x8b8588ca7cdaef7e2c61ca99130e296cea0f180c68ddeae965b22429c1060ee9",
+		"example/array.sol": {
+			"keccak256": "0x607f85708b3f623937d9a96219827e740e2ef07433c8dd1b1eea3ae461995b40",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://2f1ddd07722b591684040f06e1b83348b9f9c9cc7e8292f4a241f858aa7e111c",
-				"dweb:/ipfs/QmUyzmCMydQNCvtstXRhLKAsBSUP1CS7Pge9BzVSx4nB5n"
+				"bzz-raw://90bbed03f15c008cf55cc66f00b262a0379ecb1a34bb638a12daeb86111e490e",
+				"dweb:/ipfs/QmfMQ5rfghrCRZuV83T5ETHvRLtqSjS5qHUiBTpUuNJhWV"
 			]
 		}
 	},

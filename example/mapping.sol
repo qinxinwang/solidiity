@@ -6,6 +6,7 @@ contract Mapping {
     //value可以是多种类型 甚至是另一个mapping或者array
 
     mapping(address => uint) public balances; //定义一个mapping 记录用户的余额)
+    mapping (address => mapping (uint => bool)) public nested; // nestmapping
 
     function GetAddr(address addr) public view returns (uint){
         return balances[addr];
@@ -17,5 +18,15 @@ contract Mapping {
 
     function Clean(address addr) public {
         delete balances[addr];
+    }
+
+    function getnestmap(address addr,uint num) public view returns (bool) {
+        return nested[addr][num];
+    }
+    function setnest(address addr,uint num,bool flag) public {
+        nested[addr][num] = flag;
+    }
+    function deleteNest(address addr,uint num) public {
+        delete nested[addr][num];
     }
 }
