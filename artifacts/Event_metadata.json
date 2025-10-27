@@ -4,7 +4,53 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "AnothreLog",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +79,11 @@
 	},
 	"sources": {
 		"example/event.sol": {
-			"keccak256": "0x229772f5e4b310e497d9c840ddb59930e11b3855804e3dee8cf5bfd6331a9acc",
+			"keccak256": "0x753822db95a6dae76166167f6a5f2e24db23060e0461b5b3842cf93bd1a885c5",
 			"license": "GLP-3.0",
 			"urls": [
-				"bzz-raw://49f61d16ef7adc2cecd1609fecf8376b7d05aea9142879e83e319724ea5e3d97",
-				"dweb:/ipfs/QmTAy39ixgu4mtd3VZt2Q8t2C6nmc2H84QMeCKhfGk8Uce"
+				"bzz-raw://098028cf1690289c02bf2cf9ecb1db7275cf23e73d9c90cd77444a6b97e6468e",
+				"dweb:/ipfs/QmafgtYEd43SN8o9L4tsJVYJoaCcdM5xAYSGLBjVftHkdb"
 			]
 		}
 	},
